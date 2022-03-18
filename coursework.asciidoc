@@ -2,7 +2,7 @@
 
 == Outline
 
-This coursework is designed to provide students the ability to resit the coursework first presented in the CSC8104 module. While many aspects of the coursework are similar to the first assessment, many elements of the coursework have been removed such as cloud deployment and interacting with external services.
+The aim of this coursework is to practice the Enterprise Middleware development principles covered in the lectures and practical classes. 
 
 Before attempting this coursework you should revist link:../main/tutorial.asciidoc[this tutorial]. As OpenShift will not be used in this assement, all OpenShift related instructions can be ignored.
 
