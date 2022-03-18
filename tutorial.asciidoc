@@ -23,7 +23,7 @@ If you do not already have an account you will need to:
 
 1. Go to: https://github.com/
 2. Fill in your details and select "Sign up for GitHub."
-3. Obtain a private repository by emailing your username to a.booth2@newcastle.ac.uk
+3. **Obtain a private repository by emailing your username to a.booth2@newcastle.ac.uk **
 
 TIP: GitHub is a very popular service, and you are quite likely to use it in your professional career; especially if you work with open source software in some capacity.
 
