@@ -164,8 +164,8 @@ This should constitute a zip file containing the project source code and Maven b
 
 == Finally
 
-Discussion Boards will also be available for CSC8104 in Canvas (http://canvas.ncl.ac.uk) and Teams. You may post any questions about the tutorial or coursework assignment here, and the discussion boards will be monitored by Course Demonstrators. Also, any question which demonstrators encounter frequently (either on Teams or in practical) will be placed in a *Frequently Asked Questions* document which we maintain https://github.com/NewcastleComputingScience/enterprise-middleware-coursework/blob/master/frequentlyaskedquestions.asciidoc[here]. Before asking a question we encourage you to check both these places to see if it has already been answered.
+Discussion Boards will also be available for CSC8104 in Canvas (http://canvas.ncl.ac.uk) and Teams. You may post any questions about the tutorial or coursework assignment here. Any questions encountered frequently will be placed in a *Frequently Asked Questions* document which we maintain https://github.com/NewcastleComputingScience/enterprise-middleware-coursework/blob/master/frequentlyaskedquestions.asciidoc[here]. Before asking a question we encourage you to check both this link to see if it has already been answered.
 
 In particular, notice the https://github.com/NewcastleComputingScience/enterprise-middleware-coursework/blob/master/frequentlyaskedquestions.asciidoc#i-cant-work-out-how-to-do-[answer] which refers to documentation. The use of 3rd party documentation is absolutely *essential* throughout this coursework, and demonstrators may often answer questions by pointing you to the relevant websites.
 
-TIP: If you see a question on the discussion boards you know how to answer, we strongly encourage you to assist your colleagues!
+
