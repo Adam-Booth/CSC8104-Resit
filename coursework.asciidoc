@@ -18,7 +18,7 @@ In this assessment, you are required to develop a RESTful web service built usin
 * *Swagger*. Swagger is a simple yet powerful representation of your RESTful API. Using Java @Annotations Swagger will generate documentation for JAX-RS endpoints as part of the project build process.
 
 
-Unlike the first assessment, this coursework is split only into two parts.
+This coursework is split into two parts.
 
 In Part One of the coursework, you will build a simple web service which exposes three RESTful resources which are User, Restaurant and Review. Using this API, a user should be able to create user accounts and restaurants. A user should also be able to submit a review for a restaurant, which contains the review information along with the associated user and restaurant data.
 
