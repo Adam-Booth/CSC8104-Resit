@@ -1,0 +1,24 @@
+= Enterprise Middleware Coursework
+
+This coursework covers the development of an enterprise application using Java EE technologies and is designed to give students hands on experience with building enterprise applications.
+Furthermore, all the technologies used are production grade, given the students the experience and knowledge they need to build a real enterprise application.
+
+== Tutorial
+This document instructs the students on how to setup the various accounts they require during the coursework.
+It also guides them through setting up a sample application which is then built upon during the coursework.
+
+link:./tutorial.asciidoc[View the tutorial document]
+
+There is also a video available to https://www.youtube.com/watch?v=jAj5AlNr0LE[watch here].
+
+== Coursework
+This document tells the students what they need to do during the coursework.
+
+link:./coursework.asciidoc[View the coursework document]
+
+== Building docs
+The following command builds the html version of this coursework:
+
+    asciidoctor -a stylesheet=./stylesheets/riak.css ./coursework.asciidoc
+    asciidoctor -a stylesheet=./stylesheets/riak.css ./tutorial.asciidoc
+    asciidoctor -a stylesheet=./stylesheets/riak.css ./frequentlyaskedquestions.asciidoc
