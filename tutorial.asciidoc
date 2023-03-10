@@ -5,7 +5,7 @@ It is very important that you have completed this and are comfortable with the e
 
 == Create Accounts
 
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=2m49s[Tutorial Video - 2m49s]
+link:https://www.youtube.com/watch?v=2SkR8hDCpvA&t=2m49s[Tutorial Video - 2m49s]
 
 _This section applies to **all students**_
 
@@ -17,19 +17,19 @@ You will use it to host your code and to make it available to the demonstrators.
 GitHub is very popular in the open-source community and works best when you make your code available to others to view, clone and contribute towards.
 However, given the confidential nature of your coursework, you will need to use a private repository only accessible by yourself and the demonstrators.
 
-A private repository will be created for you which you will be given access to once the lead demonstrator has been provided with your GitHub username (see steps below).
+A private repository will be created for you which you will be given access to once the lead demonstrator has been provided with your GitHub username. Once you have created a GitHub account, please email your username to a.booth2@newcastle.ac.uk.
 
 If you do not already have an account you will need to:
 
 1. Go to: https://github.com/
 2. Fill in your details and select "Sign up for GitHub."
-3. **Obtain a private repository by emailing your username to a.booth2@newcastle.ac.uk **
+3. Obtain a private repository.
 
 TIP: GitHub is a very popular service, and you are quite likely to use it in your professional career; especially if you work with open source software in some capacity.
 
 == Environment Setup
 
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=4m55s[Tutorial Video - 4m55s]
+link:https://www.youtube.com/watch?v=2SkR8hDCpvA&t=4m55s[Tutorial Video - 4m55s]
 
 _This section of the tutorial only applies to students working on *their own* machines, not those provided by the university!_
 
@@ -39,31 +39,19 @@ This coursework depends upon several software packages / development tools. You 
 * link:https://git-scm.com/[Git]
 * link:https://maven.apache.org/[Maven]
 
-NOTE: More recent versions of Java are not supported by JBoss 7.3.0. It is a strict requirement that you must use Java 11 or 12 to ensure compatibility for this coursework. Using higher versions of Java can cause errors in your deployment. If you are seeing build errors, check that your default Java version is Java 11 or 12.
-
 == Run Example
 
 Now you will run a simple example.
 This example provides you with a starting point that you will build on when you come to doing the coursework.
 Therefore, it is very important that you get this working and become familiar with the code.
 
-=== Download JBoss EAP 7.3.0
-
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=13m05s[Tutorial Video - 13m05s]
-
-_This section of the tutorial only applies to students working on *their own* machines, not those provided by the university!_
-
-1. Go link:https://developers.redhat.com/products/eap/download/[here].
-2. Download the zip distribution of JBoss EAP 7.3.0. _Note:_ You will be required to login with your RedHat account. If you do not have a RedHat account, you are able to create one for free.
-3. Unzip JBoss EAP to somewhere on your computer.
-
 === Obtain the Contacts-Swagger Quickstart [[obtain_quickstart]]
 
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=14m50s[Tutorial Video - 14m50s]
+link:https://www.youtube.com/watch?v=2SkR8hDCpvA&t=13m04s[Tutorial Video - 13m04s]
 
 _This section applies to **all students**_
 
-1. Visit the NewcastleComputingScience/jboss-wfk-quickstarts github repo release page link:https://github.com/NewcastleComputingScience/jboss-wfk-quickstarts/releases/tag/v2.7.0%2BNCL202122-RC1[here].
+1. Visit the NewcastleComputingScience/CSC8104-Quarkus github repo release page https://github.com/NewcastleComputingScience/CSC8104-Quarkus/releases/tag/v1.0.0[here].
 2. Click on the *Source code (zip)* link to obtain the contacts-swagger quickstart
 3. Unzip the download to somewhere on your computer. Be aware this may take some time as there are many files and you are likely writing to your (networked) `H` drive.
 4. Open a Command Prompt, and go to the root directory in the contacts quickstart you just unzipped.
@@ -72,17 +60,15 @@ NOTE: You can find a Command Prompt from the Start menu by searching, or start P
 
 === Run the Quickstart
 
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=15m30s[Tutorial Video - 15m30s]
-
 _This section applies to **all students**_
 
-Step through the instructions on the Contacts-Swagger quickstart page link:https://github.com/NewcastleComputingScience/jboss-wfk-quickstarts/tree/ncl_fixes_2021_22[here], up to and including section "Run the Arquillian Tests".
+Start the service by executing the command provided on the quickstart page link:https://github.com/NewcastleComputingScience/CSC8104-Quarkus[here].
 
 NOTE: A short demonstration of the sample application is provided link:https://youtu.be/yt8SX4CGnWs[here]. It is not necessary to watch this video but you may find it useful.
 
 == Working with Git [[repository_setup]]
 
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=20m37s[Tutorial Video - 20m37s]
+link:https://www.youtube.com/watch?v=2SkR8hDCpvA&t=15m50s[Tutorial Video - 15m50s]
 
 _This section applies to **all students**_
 
@@ -97,20 +83,22 @@ This section will show you how to create a copy of the 'contacts-swagger' exampl
 * Now you need to push this code to your git repository on GitHub.
 
     git add .
-    git commit -m "contacts-swagger added to repository"
+    git commit -m "Starter project added to repository"
     git push origin master
-
+    
 * You can use a similar method to add new files or changes, commit these changes, and push your commits to the remote repository.
+
+WARNING: Due to recent changes in Git, your default branch may be named master or main. Therefore, be sure to check the default name of your branch when using the above commands.
 
 TIP: If you are new to Git, you should read Pro Git. Chapters 1-3 should cover all the functionality required for this coursework.  Available at: http://git-scm.com/book
 
 == Eclipse Setup
 
-link:https://www.youtube.com/watch?v=jAj5AlNr0LE&t=27m16s[Tutorial Video - 27m16s]
+link:https://www.youtube.com/watch?v=2SkR8hDCpvA&t=22m41s[Tutorial Video - 22m41s]
 
 _This section applies to **all students**_
 
-If you are on a University machine and wish to use Eclipse to edit the contacts-swagger example (and your coursework), you should use the version of Eclipse provided on your uni machine.
+If you are on a University machine and wish to use Eclipse to edit the contacts-swagger example (and your coursework), you should use the version of Eclipse neon provided on your uni machine.
 
 If you are on your own machine we recommend you visit the Eclipse https://www.eclipse.org/downloads/eclipse-packages/[downloads page] and select the "Eclipse IDE for Java EE Developers" which comes with Maven support.
 
@@ -122,43 +110,32 @@ Regardless, once in Eclipse you must add the contacts-swagger example to your wo
   .. Click on 'Browse' and select the contacts-swagger quickstart folder.
   .. Click 'Finish'
 
-TIP: You may use other IDEs or editors if you like, but we will not support their use, so be sure that they are able to import and work with Maven projects.
+TIP: You may use other IDEs or editors if you like, but we may not be able to provide support.
 
 IMPORTANT: When you first import the project, maven will download all of the project dependencies to an `.m2` repository folder on your `H` drive. This may take a *very* long time.
 
 
 == Viewing your datasource
 
-During development of your application you may find it very useful to be able to inspect the contents of your database. To do this you will use h2console, which is provided as part of the quickstarts.
+During development of your application, you may find it very useful to be able to inspect the contents of your database. To do this, run the ‘DBeaver’ application and create a new database connection by clicking the plug icon shown in the image below.
 
-=== Deploying h2console
+image::images/dbeaver_image_1.png["DBeaver Default Screen",align="center"]
 
-_This section of the tutorial only applies to students working on *their own* machines, not those provided by the university!_
+Then with the SQL tab selected, search for H2 and select ‘H2 Server’.
 
-Obtain the `h2console.war` file from link:https://github.com/jboss-developer/jboss-eap-quickstarts/tree/7.0.0.Final/h2-console[here], copy it into the `standalone/deployments` directory of your *EAP_HOME* directory. You may also need to restart your local JBoss server.
+image::images/dbeaver_image_2.png["DBeaver New Connection - H2 Server",align="center"]
 
-=== Accessing h2console
+On the next page, click Edit Driver Settings and paste the following connection string into the URL Template field `jdbc:h2:tcp://localhost/mem:quarkus;DB_CLOSE_ON_EXIT=FALSE` and click OK and Finish.
 
-_This section applies to **all students**_
+image::images/dbeaver_image_3.png["DBeaver New Connection - Connection String",align="center"]
 
-You can access the console at http://localhost:8080/h2console.
+Once the connection is created, you can expand the New Connection. To view the created tables and stored data, expand the PUBLIC section, expand Tables and then double-click on the table names to open the view.
 
-To log into the datasource for your application, use the following details.
-
-    Driver Class: javax.naming.InitialContext
-    JDBC URL: java:jboss/datasources/JbossContactsSwaggerQuickstartDS
-    Username: sa
-    Passowrd: sa
-
-. Click *Test Connection* and if these details are correct you will see "Test successful".
-
-. Press *Connect* to view the contents of the datasource.
-
-TIP: Your persistence.xml is the configuration file used to specify the connection details to your database. Your persistence.xml file can be found in src/main/resources/META-INF.
+image::images/dbeaver_image_4.png["DBeaver - Viewing DB",align="center"]
 
 == Testing your API
 
-Besides the Arquillian tests run through maven, you will occasionally want to test your API in a more manual fashion, in order to clearly see what information is being sent and received.
+Besides the REST Assured tests run through maven, you will occasionally want to test your API in a more manual fashion, in order to clearly see what information is being sent and received.
 
 It is partly for this purpose that the Contacts-Swagger quickstart uses the link:http://swagger.io[Swagger] tool to generate API documentation.
 
@@ -193,4 +170,4 @@ To give you an example of how you might use cURL to see what your API is doing, 
 
 The *-v* switch instructs curl to display all possible information, whilst the *-X* switch allows you to specify the HTTP method to be used and *-d* the data to be sent.
 
-TIP: If you would like to learn more about how to use cURL, you can refer to the link:http://curl.haxx.se/docs/manpage.html[official documentation] or link:http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340[this] useful tutorial.
+TIP: If you would like to learn more about how to use cURL, you can refer to the link:http://curl.haxx.se/docs/manpage.html[official documentation].
