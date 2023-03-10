@@ -1,6 +1,6 @@
 = Enterprise Middleware Coursework
 
-This coursework covers the development of an enterprise application using Java EE technologies and is designed to give students hands on experience with building enterprise applications.
+This coursework covers the development of an enterprise application using Quarkus and is designed to give students hands on experience with building enterprise applications.
 Furthermore, all the technologies used are production grade, given the students the experience and knowledge they need to build a real enterprise application.
 
 == Tutorial
@@ -9,7 +9,7 @@ It also guides them through setting up a sample application which is then built 
 
 link:./tutorial.asciidoc[View the tutorial document]
 
-There is also a video available to https://www.youtube.com/watch?v=jAj5AlNr0LE[watch here].
+There is also a video available to https://www.youtube.com/watch?v=2SkR8hDCpvA[watch here].
 
 == Coursework
 This document tells the students what they need to do during the coursework.
