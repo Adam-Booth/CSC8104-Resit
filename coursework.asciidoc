@@ -158,7 +158,9 @@ The following are the variables, or sets of variables, which should be unique fo
 == Submission Guidelines
 
 === Demonstration
-Prior to submission you will provide a 10-15 minute demonstration to one of the Course Demonstrators. You will be expected to describe your technical solution and discuss your personal experiences throughout the project. 
+Prior to submission you will provide a 10-15 minute demonstration to one of the Course Demonstrators. You will be expected to describe your technical solution and discuss your personal experiences throughout the project.
+
+In addition to the above, you will also be asked a series of questions based on the material presented throughout the module and questions relating to the technologies you have used to complete the coursework. This viva is mandatory for the resit assessment. Once you have completed the coursework, please email a.booth2@newcastle.ac.uk to organise a time to demonstrate your coursework, 
 
 === Coursework submission
 You must submit all work via the coursework submission system (NESS).
