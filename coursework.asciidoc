@@ -1,8 +1,8 @@
-= Enterprise Middleware Coursework
+= Enterprise Software and Services Coursework
 
 == Outline
 
-The aim of this coursework is to practice the Enterprise Middleware development principles covered in the lectures and practical classes. 
+The aim of this coursework is to practice the Enterprise Software and Services development principles covered in the lectures and practical classes. 
 
 Before attempting this coursework you should revisit link:../main/tutorial.asciidoc[this tutorial]. As OpenShift will not be used in this assessment, all OpenShift related instructions can be ignored.
 
