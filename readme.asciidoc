@@ -1,4 +1,4 @@
-= Enterprise Middleware Coursework
+= Enterprise Software and Services Coursework
 
 This coursework covers the development of an enterprise application using Quarkus and is designed to give students hands on experience with building enterprise applications.
 Furthermore, all the technologies used are production grade, given the students the experience and knowledge they need to build a real enterprise application.
