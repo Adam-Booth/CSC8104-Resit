@@ -1,6 +1,6 @@
-= Enterprise Middleware Coursework - Tutorial
+= Enterprise Software and Services Coursework - Tutorial
 
-This tutorial guides you through the necessary preparation required to begin your Enterprise Middleware coursework.
+This tutorial guides you through the necessary preparation required to begin your Enterprise Software and Services coursework.
 It is very important that you have completed this and are comfortable with the example, before beginning the coursework.
 
 == Create Accounts
